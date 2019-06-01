@@ -4,7 +4,7 @@ title: Who is Logged Into my Service Now Instance?
 date: 2016-06-22T14:34:00.000Z
 description: >-
   In this post, I will show you a method for tracking users in your Service Now
-  Instance even if you're on multiple nodes. 
+  Instance even if you're on multiple nodes.
 featuredpost: true
 featuredimage: /img/chemex.jpg
 tags:
