@@ -63,7 +63,7 @@ exports.createPages = ({ actions, graphql }) => {
 
       createPage({
         path: tagPath,
-        component: path.resolve(`src/templates/tags.js`),
+        component: path.resolve(`src/templates/tags.js`), 
         context: {
           tag,
         },
@@ -77,7 +77,9 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   fmImagesToRelative(node) // convert image paths for gatsby images
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const m = moment(createFilePath({ node, getNode }))
+    const value = `${m.format('YYYY')}/${m.format('MM')}/${slug}`
+
     createNodeField({
       name: `slug`,
       node,
