@@ -39,10 +39,11 @@ module.exports = {
         plugins: [
           { 
           resolve: `gatsby-remark-prismjs`,
-          options: {
+            options: {
 
-            classPrefix: "language-",
-          }},
+              classPrefix: "language-",
+            }
+          },
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
