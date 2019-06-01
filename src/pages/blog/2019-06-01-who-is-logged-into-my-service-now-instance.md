@@ -6,7 +6,7 @@ description: >-
   In this post, I will show you a method for tracking users in your Service Now
   Instance even if you're on multiple nodes.
 featuredpost: true
-featuredimage: /img/chemex.jpg
+featuredimage: /img/icon-business-group.png
 tags:
   - programming
   - servicenow
