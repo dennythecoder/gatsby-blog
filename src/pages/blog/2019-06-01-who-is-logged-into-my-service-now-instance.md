@@ -72,7 +72,7 @@ User                    user                   String
 2. We created a scheduled job to copy over the information:
 
 
-```
+```js
 var vUserSession = new GlideRecord('v_user_session'),    
     uUserSession = new GlideRecord('u_user_session')  vUserSession.query();
 
