@@ -4,7 +4,7 @@ title: Find out who is logged on to your Service Now Instance
 date: 2016-06-21T22:47:53.221Z
 description: >-
   Need to find out who has been on your Service Now instance but got two or more
-  nodes?  Use the following method to get ahead.
+  nodes?  Use the following method to get ahead. 
 featuredpost: true
 featuredimage: /img/icon-business-group.png
 tags:
