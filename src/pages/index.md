@@ -1,21 +1,15 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Denny Headrick
 image: /img/sunrise-gradient.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Denny Headrick
+subheading: 'IT, Software, Small Business, Life'
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: Why my own site?
+  description: >-
+    After blogging on other platforms, I found them too limiting.  I got my own
+    domain for $12 through Google Domains and decided to host through Netlify.
+description: IT Geek
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -68,3 +62,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
