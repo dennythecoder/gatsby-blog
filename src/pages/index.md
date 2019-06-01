@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Denny Headrick
-image: /img/sunrise-gradient.jpg
+image: /img/background-gradient-Pacific Dream.jpg
 heading: Denny Headrick
 subheading: 'IT, Software, Small Business, Life'
 mainpitch:
