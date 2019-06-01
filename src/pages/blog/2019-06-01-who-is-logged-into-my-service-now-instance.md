@@ -16,7 +16,7 @@ A couple months ago, we had a requirement for determining which users were logge
 
 
 
-What is the reason for this discrepancy? A casual glance at the results from the almighty search engine, quickly revealed the reason: “Logged In Users” only shows users logged in the same node. In spite of several questions about the topic, there weren’t any answers that succinctly answered the question. We considered the following approaches:
+What is the reason for this discrepancy? A casual glance at the results from the almighty search engine, quickly revealed the reason: “Logged In Users” only shows users logged in the same node. In spite of several questions about the topic, there weren’t any answers that succinctly answered the question. We considered the following approaches: 
 
 
 
