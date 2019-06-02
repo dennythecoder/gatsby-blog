@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: Who is Logged Into my Service Now Instance?
-date: 2016-06-22T14:34:00.000Z
+title: Find out who is logged on to your Service Now Instance
+date: 2016-06-21T22:47:53.221Z
 description: >-
-  In this post, I will show you a method for tracking users in your Service Now
-  Instance even if you're on multiple nodes. 
+  Need to find out who has been on your Service Now instance but got two or more
+  nodes?  Use the following method to get ahead.
 featuredpost: true
 featuredimage: /img/icon-business-group.png
 tags:
@@ -16,7 +16,7 @@ A couple months ago, we had a requirement for determining which users were logge
 
 
 
-What is the reason for this discrepancy? A casual glance at the results from the almighty search engine, quickly revealed the reason: “Logged In Users” only shows users logged in the same node. In spite of several questions about the topic, there weren’t any answers that succinctly answered the question. We considered the following approaches: 
+What is the reason for this discrepancy? A casual glance at the results from the almighty search engine, quickly revealed the reason: “Logged In Users” only shows users logged in the same node. In spite of several questions about the topic, there weren’t any answers that succinctly answered the question. We considered the following approaches:
 
 
 
@@ -72,7 +72,7 @@ User                    user                   String
 2. We created a scheduled job to copy over the information:
 
 
-```javascript
+```
 var vUserSession = new GlideRecord('v_user_session'),    
     uUserSession = new GlideRecord('u_user_session')  vUserSession.query();
 
