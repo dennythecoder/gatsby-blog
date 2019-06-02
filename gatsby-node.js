@@ -19,6 +19,7 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               tags
               templateKey
+              date(formatString: "YYYYMMDD")
             }
           }
         }
@@ -78,13 +79,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   fmImagesToRelative(node) // convert image paths for gatsby images
 
   if (node.internal.type === `MarkdownRemark`) {
-    const m = moment(createFilePath({ node, getNode }))
-    const value = `${m.format('YYYY')}/${m.format('MM')}/${slug}`
+    const value = createFilePath({ node, getNode })
+    const m = moment(node.frontmatter.date)
+    const title = value.indexOf('/blog/') === 0 ?
+       `${m.format('YYYY/MM/DD')}/${_.kebabCase(node.frontmatter.title)}` :
+       value
+  
 
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value:title,
     })
   }
 }
