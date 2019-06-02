@@ -74,7 +74,9 @@ User                    user                   String
 
 ```
 var vUserSession = new GlideRecord('v_user_session'),    
-    uUserSession = new GlideRecord('u_user_session')  vUserSession.query();
+    uUserSession = new GlideRecord('u_user_session');
+
+    vUserSession.query();
 
 while(vUserSession.next()){
 
