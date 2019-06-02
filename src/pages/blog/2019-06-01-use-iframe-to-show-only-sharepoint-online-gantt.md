@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Use iframe to show only SharePoint Online Gantt
+title: Use an iframe to show only SharePoint Online Gantt
 date: 2019-02-21T05:16:05.678Z
 description: >-
   Using custom dashboards that integrate out-of-the-box components can be a pain
