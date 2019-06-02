@@ -5,7 +5,7 @@ date: 2019-02-21T05:16:05.678Z
 description: >-
   Using custom dashboards that integrate out-of-the-box components can be a pain
   at times, but the following CSS will help you hide all the noise.
-featuredpost: false
+featuredpost: true
 featuredimage: /img/icon-business-idea.png
 ---
 ```css
