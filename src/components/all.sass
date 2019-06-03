@@ -117,16 +117,21 @@ $menu-label-color: $white-ter
 .blog-list-item.is-featured
     box-shadow: 0.5em 0.5em #ddd;
     background-color: $red-background;
+    height: 100%;
 .blog-list-item
     box-shadow: 0.5em 0.5em #ddd;
     background-color: $red-background;
+    height: 100%;
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
 .blog-list-item .featured-thumbnail
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
-
+.blog-list-item p a.button
+  position: absolute;
+  bottom: 6px;
+  width: 200px;
 
 @import "~bulma"
 
