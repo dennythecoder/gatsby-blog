@@ -6,7 +6,13 @@ module.exports = {
     description: "Welcome to my world!"
   },
   plugins: [
-    
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-141266971-1",
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
