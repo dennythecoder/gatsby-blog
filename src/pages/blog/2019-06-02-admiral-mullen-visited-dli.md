@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Admiral Mullen Visited DLI
-date: 2010-04-10T02:02:00.000Z
+date: 2009-04-11T02:02:00.000Z
 description: >-
   I had the chance to listen to the Chairman of the Joint Chiefs of Staff speak
   at DLI.
