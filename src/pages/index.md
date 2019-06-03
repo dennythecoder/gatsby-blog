@@ -6,10 +6,12 @@ heading: Denny Headrick
 subheading: 'IT, Software, Small Business, Life'
 mainpitch:
   title: Why my own site?
-  description: >-
+  description: >
     After blogging on other platforms, I found them too limiting.  I got my own
-    domain for $12 through Google Domains and decided to host through Netlify.
-description: IT Geek
+    domain for $12 through Google Domains and decided to host through Netlify. 
+    I'll be migrating content that I've had over the years on MySpace, Facebook,
+    Medium, Blogger, etc. as I want to remove my dependence upon them.
+description: ' '
 intro:
   blurbs:
     - image: /img/icon-business-blackboard.png
@@ -22,7 +24,7 @@ intro:
     - image: /img/icon-business-alarm-clock.png
       text: 'I believe that ideas don''t happen just from 9 to 5.  '
   heading: I am not selling anything!
-  description: >
+  description: |
     Feel free to poke around my blog or contact me!
 main:
   heading: Trying to be better
