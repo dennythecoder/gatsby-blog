@@ -14,12 +14,14 @@ tags:
   - free
   - resources
 ---
+There are some unique resources included in here including DVIDS, which includes media provided by the US Military.  As you might expect, it's useful in my office. 
+
 * <https://pexels.com/>
 * <https://pixabay.com/>
 * <https://stocksnap.io/>
 * <https://unsplash.com/>
 * <https://burst.shopify.com//?ref=suabt>
-* [https://dvidshub.net/search?filter\[type]=image](https://dvidshub.net/search?filter[type]=image)
+* [https://dvidshub.net/](https://dvidshub.net/)
 * <https://freeimages.com/>
 * <https://morguefile.com/quest/1>
 * <https://canva.com/photos/free/>
