@@ -21,7 +21,7 @@ There are some unique resources included in here including DVIDS, which includes
 * <https://stocksnap.io/>
 * <https://unsplash.com/>
 * <https://burst.shopify.com//?ref=suabt>
-* [https://dvidshub.net/](https://dvidshub.net/)
+* <https://dvidshub.net/>
 * <https://freeimages.com/>
 * <https://morguefile.com/quest/1>
 * <https://canva.com/photos/free/>
