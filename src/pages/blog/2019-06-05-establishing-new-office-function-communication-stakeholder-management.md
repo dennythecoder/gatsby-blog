@@ -10,6 +10,10 @@ description: >-
   would likely benefit from the tools.
 featuredpost: false
 featuredimage: /img/icon-business-smartphone.png
+tags:
+  - project management
+  - pmbok
+  - communication
 ---
 To make it clear, the "charter" for this particular project was really easily established and directed by our Group Commander (an O-6): Establish a compliance office that puts our missionset in compliance with Air Force Instructions. Do this within 6 months.
 
