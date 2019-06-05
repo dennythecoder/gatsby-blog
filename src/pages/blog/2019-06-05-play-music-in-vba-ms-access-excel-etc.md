@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 'Play Music in VBA (MS Access, Excel, etc)'
-date: 2019-06-05T19:01:27.461Z
+date: 2014-03-19T19:01:27.461Z
 description: >-
   With great power comes great responsibility.  If you have sufficient
   experience with VBA, I don't see anything here causing you too much
