@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 'Establishing New Office Function: Communication & Stakeholder Management'
-date: 2019-06-05T18:19:08.318Z
+date: 2013-01-15T19:19:08.318Z
 description: >-
   Since moving to San Antonio, I've been charged with establishing a new
   compliance office. Given my recent experience with working in a similar
