@@ -19,6 +19,8 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
 
+  Disqus.prototype.shortname = 'denny-headrick'
+
   return (
     <section className="section">
       {helmet || ''}
@@ -43,13 +45,16 @@ export const BlogPostTemplate = ({
               </div>
             ) : null}
           </div>
-          <Disqus 
+
+        </div>
+        <Disqus 
             identifier={id}
             title={title}
             url={`${window.location.href}`}
+            shortname='denny-headrick'
           />
-        </div>
       </div>
+
     </section>
   )
 }
