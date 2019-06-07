@@ -16,9 +16,10 @@ export const BlogPostTemplate = ({
   title,
   helmet,
   id,
+  slug,
 }) => {
   const PostContent = contentComponent || Content
-
+  
   Disqus.prototype.shortname = 'denny-headrick'
 
   return (
@@ -50,11 +51,10 @@ export const BlogPostTemplate = ({
         <Disqus 
             identifier={id}
             title={title}
-            url={`${window.location.href}`}
+            url={`https://dennyheadrick.com/${slug}`}
             shortname='denny-headrick'
           />
       </div>
-
     </section>
   )
 }
@@ -65,6 +65,7 @@ BlogPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  slug: PropTypes.string,
 }
 
 const BlogPost = ({ data }) => {
@@ -87,6 +88,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        slug={post.fields.slug}
       />
     </Layout>
   )
