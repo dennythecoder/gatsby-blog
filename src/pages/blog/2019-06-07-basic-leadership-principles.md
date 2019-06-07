@@ -11,6 +11,8 @@ description: >-
   authority represents a change in my career.
 featuredpost: false
 featuredimage: /img/icon-business-open-book.png
+tags:
+  - leadership
 ---
 This book is empowering and frames my position a bit differently. Instead of framing the concept of leader as one that stands in front of large audiences and directs action, the book frames a leader as one that compels improvement in those around himself. Now I wonder how I can influence those near me to be better. As such, I will be generally trying to take on the following approaches:
 
