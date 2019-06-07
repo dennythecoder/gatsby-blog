@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Disqus from 'gatsby-plugin-disqus'
 
 
 export const BlogPostTemplate = ({
@@ -14,6 +15,7 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  id,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -41,6 +43,11 @@ export const BlogPostTemplate = ({
               </div>
             ) : null}
           </div>
+          <Disqus 
+            identifier={id}
+            title={title}
+            url={`${window.location.href}`}
+          />
         </div>
       </div>
     </section>
@@ -93,6 +100,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
