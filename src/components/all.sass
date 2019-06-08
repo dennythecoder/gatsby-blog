@@ -120,10 +120,13 @@ $menu-label-color: $white-ter
     background-color: $red-background;
     height: 100%;
     margin: 4px 4px;
+
 .blog-list-item
     background-color: $red-background;
     height: 100%;
     margin: 4px 4px;
+
+
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
@@ -133,6 +136,7 @@ $menu-label-color: $white-ter
 
 .blog-list-item p 
   overflow: hidden;
+  max-height: 30vw;
 .blog-list-item p a.button
   position: absolute;
   bottom: 6px;
@@ -149,7 +153,11 @@ $menu-label-color: $white-ter
 +mobile
   .blog-list-item header
     display: block
+
   .blog-list-item .featured-thumbnail
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+  .blog-list-item
+    max-height: 30vw;
+    text-align: center;

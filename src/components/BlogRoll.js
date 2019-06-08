@@ -20,7 +20,7 @@ class BlogRoll extends React.Component {
               >
                 <header>
                   {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
+                    <div className="featured-thumbnail is-hidden-mobile">
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
@@ -38,17 +38,17 @@ class BlogRoll extends React.Component {
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
+                    <span></span>
+                    <div className="subtitle is-size-5 is-block">
                       {post.frontmatter.date}
-                    </span>
+                    </div>
                   </p>
                 </header>
                 <p>
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <Link className="button is-hidden-mobile" to={post.fields.slug}>
                     Keep Reading →
                   </Link>
                 </p>
