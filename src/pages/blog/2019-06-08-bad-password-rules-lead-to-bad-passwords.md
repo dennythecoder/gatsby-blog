@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Bad Password Rules Lead to Bad Passwords
-date: 2019-06-08T20:11:40.157Z
+date: 2015-10-21T20:11:40.157Z
 description: >-
   Modern password policies lead to disruption of IT services in many businesses.
   While the intent of such policies is to keep data and customers secure, the
