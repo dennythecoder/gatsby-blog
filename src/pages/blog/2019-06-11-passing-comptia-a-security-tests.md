@@ -34,3 +34,4 @@ Free videos for A+, Net+, Sec+ and more. 
 ## Cybrary
 This company offers a series of limited (but free) courses to prepare you for CompTIA exams and more.
 # What do certs accomplish?
+The value of many certifications is highly debatable, but having them will rarely close any doors.  If you're looking to get hired by a defense contractor, it's in your best interest to get an adequate certification ahead of time.
