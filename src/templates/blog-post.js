@@ -23,7 +23,7 @@ export const BlogPostTemplate = ({
   Disqus.prototype.shortname = 'denny-headrick'
 
   return (
-    <section className="section">
+    <section className="section serif">
       {helmet || ''}
       <div className="container content">
         <div className="columns">

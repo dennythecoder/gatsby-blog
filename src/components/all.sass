@@ -1,5 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
-
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|IBM+Plex+Sans&display=swap')
 // Config vars
 $red-background: #fda
 
@@ -7,6 +7,19 @@ $primary: #17d
 $primary-invert: #fff
 $body-color: #333
 $black: #2b2523
+
+$serif: 'Frank Ruhl Libre', serif;
+$sans-serif: 'IBM Plex Sans', sans-serif;
+
+
+
+
+.serif
+  font-family: $serif
+
+.sans-serif
+  font-family: $sans-serif
+
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -142,6 +155,19 @@ $menu-label-color: $white-ter
   bottom: 6px;
   width: 200px;
 
+
+
+
+html, body
+  font-family: $serif
+
+.button
+  font-family: $sans-serif
+
+
+
+
+
 @import "~bulma"
 
 
@@ -161,3 +187,6 @@ $menu-label-color: $white-ter
   .blog-list-item
     max-height: 30vw;
     text-align: center;
+
+
+
